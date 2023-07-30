@@ -25,6 +25,22 @@ const Books = [
     Category: 'Web',
     status: 1,
   },
+  {
+   id: 3,
+   BookName: "CSS framework",
+  YearPublished: "2005",
+  Author: "Jaguar",
+  Category: "Web",
+  status: 1,
+  },
+  {
+  id: 4,
+  BookName: "Data Science",
+  YearPublished: "2023",
+  Author: "Vic S",
+  Category: "Data",
+  status: 1,
+  },
   
 ];
 
@@ -42,6 +58,24 @@ const LoginProfiles = [
     password: '123456',
     isAdmin: false,
   },
+  {
+    id: 3,
+    username: "vice",
+    password: "abrakadabra",
+    isAdmin: false,
+},
+{
+    id: 4,
+    username: "super",
+    password: "69843",
+    isAdmin: true,
+},
+{
+    id: 5,
+    username: "user",
+    password: "123",
+    isAdmin: false,
+},
   
 ];
 
